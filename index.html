@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just UI | Sahil K</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- <link href="pattern.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<style>
+    .launchHeadings {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar-fixed {
+        position: absolute;
+        z-index: 999999999;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .banner h1 {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        line-height: 100vh;
+        mix-blend-mode: screen;
+        font-size: 200px;
+    }
+</style>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo center white-text launchHeadings" style="font-size: 36px;">JUNE</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="sass.html" style="font-weight: 600;font-size: 18px;">Shop</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <img src="https://images.unsplash.com/photo-1572965733194-784e4b4efa45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            alt="" width="100%" style="margin-top: -10%; padding: 0 1% 1% 1%; background-size: cover;">
+        <h1 class="launchHeadings white-text centered">
+            Incorporate Your Style
+        </h1>
+    </div>
+    <div class="row" style="padding: 0 1% 1% 1%;" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="col s6">
+            <img src="img1.jpg" alt="" width="100%" style="vertical-align: middle;">
+            <div style="margin-top:-30%; position:absolute; margin-left: 15%;font-size: 58px;"
+                class="launchHeadings white-text">
+                Serve Love
+            </div>
+        </div>
+        <div class="col s6">
+            <img src="https://images.unsplash.com/photo-1609820685514-859d2ab64c34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80"
+                alt="" width="100%" style="vertical-align: middle;">
+            <div style="margin-top:-30%; position:absolute; margin-left: 15%;font-size: 58px;"
+                class="launchHeadings white-text">
+                Dank AF
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <video src="vid.mp4" type="video/mp4" autoplay loop muted style="width:100%"></video>
+        <h1 class="launchHeadings" style="font-weight: bold; text-align: center;" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1000">JUNE</h1>
+        <h5 class="black-text launchHeadings"
+            style="margin-top: auto; z-index: 1;"> By - Sahil Lahu Kindarle</h5>
+
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
